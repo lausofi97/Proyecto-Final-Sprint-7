@@ -1,13 +1,13 @@
 # Proyecto-Final-Sprint-7
-# 📊 Proyecto: Análisis Exploratorio de Clientes - ConnectaTel
+# Proyecto: Análisis Exploratorio de Clientes - ConnectaTel
 
-## 📌 Objetivo del proyecto
+## Objetivo del proyecto
 
 El objetivo de este proyecto es realizar un Análisis Exploratorio de Datos (EDA) sobre la información de clientes de ConnectaTel con el fin de identificar patrones de comportamiento, segmentar a los usuarios según su edad y nivel de uso, detectar valores atípicos y generar recomendaciones de negocio que contribuyan a mejorar la oferta de planes y la toma de decisiones comerciales.
 
 ---
 
-## 📂 Datasets utilizados
+## Datasets utilizados
 
 El análisis se realizó utilizando los siguientes conjuntos de datos:
 
@@ -58,7 +58,7 @@ Durante el desarrollo del proyecto se realizaron las siguientes etapas:
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 Este proyecto fue desarrollado en **Google Colab**.
 
@@ -73,7 +73,7 @@ Para ejecutarlo:
 
 ---
 
-## 🔄 Guía de reproducción
+## Guía de reproducción
 
 Para reproducir completamente el análisis:
 
@@ -89,7 +89,7 @@ Para reproducir completamente el análisis:
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Python 3
 - Google Colab
@@ -100,7 +100,7 @@ Para reproducir completamente el análisis:
 
 ---
 
-## 📈 Resultados principales
+## Resultados principales
 
 El análisis permitió:
 
