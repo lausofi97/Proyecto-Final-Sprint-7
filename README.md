@@ -19,7 +19,7 @@ Estos datasets fueron integrados para analizar el comportamiento de uso de los u
 
 ---
 
-## 🔎 Etapas del análisis
+## Etapas del análisis
 
 Durante el desarrollo del proyecto se realizaron las siguientes etapas:
 
