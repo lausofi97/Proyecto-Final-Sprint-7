@@ -11,10 +11,9 @@ El objetivo de este proyecto es realizar un Análisis Exploratorio de Datos (EDA
 
 El análisis se realizó utilizando los siguientes conjuntos de datos:
 
-- **users.csv**: Información demográfica de los clientes (edad, ciudad, fecha de registro, plan contratado y estado del servicio).
-- **calls.csv**: Historial de llamadas realizadas por los clientes.
-- **messages.csv**: Registro de mensajes enviados.
-- **internet.csv**: Consumo de datos móviles de los clientes.
+-**plans.csv**: información de los planes actuales (precio, minutos incluidos, GB incluidos, costo por extra).
+- **users_latam.csv**: información de los clientes (edad, ciudad, fecha de registro, plan, churn).
+- **usage.csv**: detalle del uso real de los servicios (llamadas y mensajes).
 
 Estos datasets fueron integrados para analizar el comportamiento de uso de los usuarios y construir segmentos de clientes.
 
@@ -28,27 +27,31 @@ Durante el desarrollo del proyecto se realizaron las siguientes etapas:
    - Importación de librerías.
    - Lectura de los archivos CSV.
 
-2. **Exploración inicial**
+2.**Identificación de problemas de calidad**
+   - Contar nulos, detectar sentinels, revisar fechas fuera de rango.
+     
+3. **Exploración inicial**
    - Revisión de estructura, tipos de datos y dimensiones.
    - Identificación de valores faltantes y registros duplicados.
 
-3. **Limpieza y preparación de datos**
-   - Corrección de tipos de datos.
+4. **Limpieza y preparación de datos**
+   - Corrección de tipos de datos(convertir fechas).
+   - Reemplazar sentinels
    - Tratamiento de valores faltantes.
    - Validación de la calidad de la información.
 
-4. **Análisis Exploratorio de Datos (EDA)**
-   - Estadísticos descriptivos.
-   - Distribución de variables.
-   - Detección de valores atípicos (outliers).
-   - Visualización mediante gráficos.
+5. **Análisis Exploratorio de Datos (EDA)**
+   - Estadísticos descriptivos(Revisar las medidas clave en variables categóricas y numéricas).
+   - Distribución de variables((media, mediana, percentiles)).
+   - Detección de valores atípicos (patrones de usuarios o datos atípicos)(outliers).
+   - Visualización mediante gráficos(Creación de histogramas y boxplots).
 
-5. **Segmentación de clientes**
+6. **Segmentación de clientes**
    - Segmentación por grupos de edad.
    - Clasificación según el nivel de uso del servicio.
    - Comparación del comportamiento entre segmentos.
 
-6. **Generación de insights**
+7. **Generación de insights**
    - Identificación de los segmentos de mayor valor.
    - Análisis de patrones de consumo.
    - Elaboración de recomendaciones para el negocio.
@@ -76,10 +79,9 @@ Para reproducir completamente el análisis:
 
 1. Clonar o descargar este repositorio.
 2. Verificar que los siguientes archivos estén disponibles:
-   - `users.csv`
-   - `calls.csv`
-   - `messages.csv`
-   - `internet.csv`
+   - `plans.csv`
+   - `users_latam.csv.csv`
+   - `usage.csv`
    - `S7 Version-Estudiante-Project-ConnectaTel.ipynb`
 3. Abrir el notebook en Google Colab.
 4. Ejecutar todas las celdas en el orden establecido.
